@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.profile, .admin {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.permissions-error {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.permissions-error .rmwc-icon {
+  color: crimson;
+}
+
+:root {
+  --mdc-theme-primary: #5d1049;
+}

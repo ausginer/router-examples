@@ -1,0 +1,50 @@
+{
+  "name": "@ausginer/router-examples",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ausginer/router-examples.git"
+  },
+  "author": "Vlad Rindevich <vladrin@vaadin.com> (https://github.com/Lodin)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ausginer/router-examples/issues"
+  },
+  "homepage": "https://github.com/ausginer/router-examples#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "overrides": {
+    "esbuild": "$esbuild"
+  },
+  "dependencies": {
+    "@ausginer/router": "^1.0.0-beta.0",
+    "@rmwc/button": "^8.0.8",
+    "@rmwc/dialog": "^8.0.8",
+    "@rmwc/drawer": "^8.0.8",
+    "@rmwc/icon": "^8.0.8",
+    "@rmwc/list": "^8.0.8",
+    "@rmwc/top-app-bar": "^8.0.8",
+    "@rmwc/typography": "^8.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.1",
+    "esbuild": "^0.18.8",
+    "eslint-config-vaadin": "^1.0.0-alpha.12",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
+  }
+}

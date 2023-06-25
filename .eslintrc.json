@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "vaadin/typescript-requiring-type-checking",
+    "vaadin/imports-typescript",
+    "plugin:react-hooks/recommended",
+    "vaadin/prettier"
+  ],
+  "plugins": ["react-refresh"],
+  "rules": {
+    "@typescript-eslint/promise-function-async": "off",
+    "react-refresh/only-export-components": "warn",
+    "import/no-unassigned-import": "off"
+  }
+}
